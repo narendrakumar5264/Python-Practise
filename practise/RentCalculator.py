@@ -1,0 +1,12 @@
+Name = input(" Enter Your Name ")
+Elc = int(input(" Enter the Electricity expenses "))
+food = int(input("Enter the food expenses "))
+room  = int(input("Enter the Room  Rent "))
+enternet = int(input("Enter the enternet expenses "))
+rent = Elc + food + room + room + enternet
+print(f"Hello  {Name}   Your Total  Expense in this Month is  {rent}")
+print("Expenses Details :")
+print(f"Electricity expenses {Elc}")
+print(f"food expenses   {food}")
+print(f"Room  Rent  {room}")
+print(f"enternet expenses { enternet}")
